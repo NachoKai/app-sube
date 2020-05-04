@@ -1,0 +1,182 @@
+.login {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #e8f8f8;
+  height: 100%;
+  max-width: 100vw;
+  width: 100%;
+  max-width: 500px;
+}
+
+.login-up {
+  width: 100%;
+  background-color: #0091ff;
+  z-index: 99;
+}
+
+.login-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.login-back {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+
+  a {
+    justify-content: flex-start;
+  }
+}
+
+.login-title {
+  text-align: center;
+  padding: 1rem;
+
+  h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wave2 {
+  width: 100%;
+}
+
+.login-ingresar {
+  max-width: 300px;
+  border-radius: 2rem;
+  background-color: #0b6bb6;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  max-width: 250px;
+  margin: 1.5rem 0 2rem 0;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
+  font-size: 1.1rem;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+  &:active {
+    transform: translateY(3px);
+  }
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-btn {
+  background-color: #e8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  a {
+    background-color: #e8f8f8;
+  }
+}
+
+.form-tipo {
+  max-width: 200px;
+  width: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-documento {
+  max-width: 200px;
+  width: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-pass {
+  max-width: 200px;
+  width: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  color: #474747;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0.5rem 0;
+
+  .fas {
+    margin-right: 0.5rem;
+  }
+}
+
+select {
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  max-width: 200px;
+  border-bottom: 1px solid #474747;
+}
+
+.documento,
+.pass {
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  max-width: 200px;
+  border-bottom: 1px solid #474747;
+}
