@@ -1,7 +1,6 @@
 import React from "react";
 import "./Tarjetas.scss";
 import { Link } from "react-router-dom";
-import Chart from "./Chart";
 
 const Tarjetas = () => {
   return (
@@ -49,9 +48,7 @@ const Tarjetas = () => {
           <div className="dashboard-down-opt">Mes</div>
           <div className="dashboard-down-opt-active">Año</div>
         </div>
-        <div className="chart">
-          <Chart />
-        </div>
+        <div className="chart"></div>
       </div>
       <div className="indice-menu-down">
         <div className="menu-icon">
