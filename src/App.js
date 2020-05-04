@@ -8,6 +8,7 @@ import Indice from "./components/Indice/Indice";
 import Tarjetas from "./components/Tarjetas/Tarjetas";
 import Perfil from "./components/Perfil/Perfil";
 import Centros from "./components/Centros/Centros";
+import Registro from "./components/Registro/Registro";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <Switch>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/registro">
+            <Registro />
           </Route>
           <Route path="/home">
             <Home />

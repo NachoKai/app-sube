@@ -45,7 +45,7 @@ const Perfil = () => {
           </div>
           <div className="form-name">
             <label>
-              <i class="fas fa-user-edit"></i> Nombre y apellido
+              <i className="fas fa-user-edit"></i> Nombre y apellido
             </label>
             <input
               className="name"

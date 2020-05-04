@@ -25,7 +25,9 @@ const Home = () => {
         <Link to="/login">
           <button className="btn-ingresar">Ingresar</button>
         </Link>
-        <button className="btn-crear">Crear Cuenta</button>
+        <Link to="/registro">
+          <button className="btn-crear">Crear Cuenta</button>
+        </Link>
         <a href="/" className="home-forget">
           ¿Olvidaste la contraseña?
         </a>

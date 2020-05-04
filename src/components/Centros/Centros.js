@@ -22,16 +22,19 @@ const Centros = () => {
       <div className="centros-buscar">
         <label>Buscar:</label>
         <div className="buscar-input">
-          <i class="fas fa-search"></i>
+          <i className="fas fa-search"></i>
           <input placeholder="Ciudad" />
         </div>
       </div>
       <div className="map">
-        <img src="https://i.imgur.com/xuo6Jmw.png" />
+        <img alt="icon" src="https://i.imgur.com/xuo6Jmw.png" />
       </div>
       <div className="centros-info">
         <div className="centros-data">
-          <img src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinpuntoSUBE.SVG" />
+          <img
+            alt="icon"
+            src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinpuntoSUBE.SVG"
+          />
           <details>
             <summary>
               <span>Puntos SUBE</span>
@@ -43,7 +46,10 @@ const Centros = () => {
           </details>
         </div>
         <div className="centros-data">
-          <img src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinCentrodeatencion.svg" />
+          <img
+            alt="icon"
+            src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinCentrodeatencion.svg"
+          />
           <details>
             <summary>
               <span>Centros de Atención</span>
@@ -69,7 +75,10 @@ const Centros = () => {
           </details>
         </div>
         <div className="centros-data">
-          <img src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinTerminalesAutomaticas.svg" />
+          <img
+            alt="icon"
+            src="https://tarjetasube.sube.gob.ar/SubeWeb/Content/Images/PinTerminalesAutomaticas.svg"
+          />
           <details>
             <summary>
               <span>Terminales Automáticas</span>

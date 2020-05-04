@@ -1,8 +1,8 @@
 import React from "react";
-import "./Login.scss";
+import "./Registro.scss";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Registro = () => {
   return (
     <div className="login">
       <div className="top">
@@ -20,7 +20,14 @@ const Login = () => {
             />
           </div>
           <div className="login-title">
-            <h1>¡Hola, Nacho!</h1>
+            <h1>Creá tu cuenta</h1>
+            <p>
+              Creá tu cuenta para consultar y recuperar tu saldo, ver tus
+              movimientos, recibir información de transporte público o denunciar
+              un Punto SUBE. Si sos beneficiario de la Tarifa Social generá el
+              PIN SUBE en la web de <b>MI ANSES</b> desde el apartado "Programas
+              y Beneficios".
+            </p>
           </div>
         </div>
         <div className="wave2">
@@ -38,9 +45,18 @@ const Login = () => {
         <div className="login-form">
           <div className="form-documento">
             <label>
+              <i className="fas fa-credit-card"></i> Nº de Tarjeta
+            </label>
+            <input
+              className="documento"
+              type="number"
+              placeholder="6061 0000 0000 0000"
+            />
+          </div>
+          <div className="form-documento">
+            <label>
               <i className="fas fa-user"></i> Nº de Documento
             </label>
-
             <input className="documento" type="number" placeholder="00000000" />
           </div>
           <div className="form-tipo">
@@ -59,14 +75,16 @@ const Login = () => {
               <i className="fas fa-key"></i> Clave
             </label>
             <input className="pass" type="password" placeholder=". . . . . ." />
+            <label>Repetir Clave</label>
+            <input className="pass" type="password" placeholder=". . . . . ." />
           </div>
         </div>
         <div className="login-btn">
           <Link to="indice">
-            <button className="login-ingresar">Ingresar</button>
+            <button className="login-ingresar">Registrar</button>
           </Link>
-          <Link to="/registro">
-            <div className="login-registrar">Registrate ahora</div>
+          <Link to="/login">
+            <div className="login-registrar">Ingresar ahora</div>
           </Link>
         </div>
       </div>
@@ -74,4 +92,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Registro;
