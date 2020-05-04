@@ -72,6 +72,14 @@ const Registro = () => {
           </div>
           <div className="form-pass">
             <label>
+              <i className="fas fa-at"></i> Correo electrónico
+            </label>
+            <input className="pass" type="text" placeholder=". . . . . ." />
+            <label>Repetir Correo</label>
+            <input className="pass" type="text" placeholder=". . . . . ." />
+          </div>
+          <div className="form-pass">
+            <label>
               <i className="fas fa-key"></i> Clave
             </label>
             <input className="pass" type="password" placeholder=". . . . . ." />
