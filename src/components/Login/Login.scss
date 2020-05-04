@@ -16,7 +16,7 @@ html {
 
 .login-up {
   width: 100%;
-  background-color: #0091ff;
+  background-color: #0b6bb6;
   z-index: 99;
 }
 
@@ -89,7 +89,7 @@ a {
 .login-ingresar {
   max-width: 300px;
   border-radius: 2rem;
-  background-color: #499fe8;
+  background-color: #0b6bb6;
   color: #fff;
   padding: 0.8rem 1rem;
   width: 100%;
@@ -97,6 +97,7 @@ a {
   margin: 1.5rem 0 2rem 0;
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
   font-size: 1.1rem;
+  border: none;
 
   &:hover {
     cursor: pointer;
