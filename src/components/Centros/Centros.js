@@ -16,7 +16,16 @@ const Centros = () => {
           <i className="fas fa-bell"></i>
         </div>
       </div>
-
+      <div className="centros-buscar">
+        <label>Buscar:</label>
+        <div className="buscar-input">
+          <i class="fas fa-search"></i>
+          <input placeholder="Ciudad" />
+        </div>
+      </div>
+      <div className="map">
+        <img src="https://i.imgur.com/xuo6Jmw.png" />
+      </div>
       <div className="indice-menu-down">
         <div className="menu-icon">
           <Link to="./indice">

@@ -16,7 +16,48 @@ const Perfil = () => {
           <i className="fas fa-bell"></i>
         </div>
       </div>
-
+      <div className="perfil-avatar">
+        <img
+          alt="avatar"
+          className="indice-avatar"
+          src="https://ca.slack-edge.com/TNG5KKB2P-UNWP3HYKY-0b015efda2a9-512"
+        />
+      </div>
+      <div className="perfil-datos">
+        <h3>Tus datos</h3>
+        <div className="perfil-datos-form">
+          <div className="form-documento">
+            <label>
+              <i className="fas fa-user"></i> Documento
+            </label>
+            <input className="documento" type="number" placeholder="00000000" />
+          </div>
+          <div className="form-tipo">
+            <label>
+              <i className="fas fa-id-card"></i> Tipo
+            </label>
+            <select>
+              <option>DNI</option>
+            </select>
+          </div>
+          <div className="form-name">
+            <label>
+              <i class="fas fa-user-edit"></i> Nombre y apellido
+            </label>
+            <input
+              className="name"
+              type="text"
+              placeholder="Ingresa nombre y apellido"
+            />
+          </div>
+          <div className="form-pass">
+            <label>
+              <i className="fas fa-key"></i> Contraseña
+            </label>
+            <input className="pass" type="password" placeholder=". . . . . ." />
+          </div>
+        </div>
+      </div>
       <div className="indice-menu-down">
         <div className="menu-icon">
           <Link to="./indice">

@@ -26,3 +26,51 @@
     cursor: pointer;
   }
 }
+
+.centros-buscar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  label {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+
+.buscar-input {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+.fas {
+  margin-right: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+label {
+  text-align: left;
+}
+
+.map {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+
+  img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+  }
+}
