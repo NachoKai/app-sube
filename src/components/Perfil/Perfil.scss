@@ -44,6 +44,12 @@
   width: 100%;
 }
 
+.perfil-datos {
+  h3 {
+    text-align: center;
+  }
+}
+
 .form-name {
   max-width: 200px;
   width: 100%;
@@ -60,4 +66,12 @@ h3 {
 
 .perfil-avatar {
   margin: 1rem 0;
+}
+
+.perfil-baja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }

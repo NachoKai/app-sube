@@ -24,11 +24,11 @@ const Perfil = () => {
         />
       </div>
       <div className="perfil-datos">
-        <h3>Tus datos</h3>
+        <h3>Tus datos:</h3>
         <div className="perfil-datos-form">
           <div className="form-documento">
             <label>
-              <i className="fas fa-user"></i> Documento
+              <i className="fas fa-user"></i> Nº de Documento
             </label>
             <input className="documento" type="number" placeholder="00000000" />
           </div>
@@ -37,7 +37,10 @@ const Perfil = () => {
               <i className="fas fa-id-card"></i> Tipo
             </label>
             <select>
-              <option>DNI</option>
+              <option>DNI - Documento Nacional de Identidad</option>
+              <option>LE - Libreta Enrolamiento</option>
+              <option>LC - Libreta Cívica</option>
+              <option>DE - Documento Extranjero</option>
             </select>
           </div>
           <div className="form-name">
@@ -52,11 +55,19 @@ const Perfil = () => {
           </div>
           <div className="form-pass">
             <label>
-              <i className="fas fa-key"></i> Contraseña
+              <i className="fas fa-key"></i> Clave
             </label>
             <input className="pass" type="password" placeholder=". . . . . ." />
           </div>
         </div>
+      </div>
+      <div className="perfil-baja">
+        <h3>Dar de baja:</h3>
+        <select>
+          <option>Pérdida</option>
+          <option>Robo</option>
+          <option>Rotura</option>
+        </select>
       </div>
       <div className="indice-menu-down">
         <div className="menu-icon">

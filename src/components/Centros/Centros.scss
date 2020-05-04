@@ -75,3 +75,24 @@ label {
     height: auto;
   }
 }
+
+.centros-data {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  margin: 1rem 0;
+
+  span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-height: 42px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  img {
+    margin-right: 0.5rem;
+  }
+}

@@ -38,7 +38,7 @@ const Login = () => {
         <div className="login-form">
           <div className="form-documento">
             <label>
-              <i className="fas fa-user"></i> Documento
+              <i className="fas fa-user"></i> Nº de Documento
             </label>
 
             <input className="documento" type="number" placeholder="00000000" />
@@ -48,12 +48,15 @@ const Login = () => {
               <i className="fas fa-id-card"></i> Tipo
             </label>
             <select>
-              <option>DNI</option>
+              <option>DNI - Documento Nacional de Identidad</option>
+              <option>LE - Libreta Enrolamiento</option>
+              <option>LC - Libreta Cívica</option>
+              <option>DE - Documento Extranjero</option>
             </select>
           </div>
           <div className="form-pass">
             <label>
-              <i className="fas fa-key"></i> Contraseña
+              <i className="fas fa-key"></i> Clave
             </label>
             <input className="pass" type="password" placeholder=". . . . . ." />
           </div>
@@ -61,6 +64,9 @@ const Login = () => {
         <div className="login-btn">
           <Link to="indice">
             <button className="login-ingresar">Ingresar</button>
+          </Link>
+          <Link to="/">
+            <div className="login-registrar">Registrate ahora</div>
           </Link>
         </div>
       </div>
