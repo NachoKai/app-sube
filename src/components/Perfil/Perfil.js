@@ -47,7 +47,7 @@ const Perfil = () => {
             <input
               className="name"
               type="text"
-              placeholder="Ingresa nombre y apellido"
+              placeholder="Ingresa tu nombre"
             />
           </div>
           <div className="form-pass">
