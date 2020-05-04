@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/app-sube/static/css/main.8a77a822.chunk.css",
+    "main.css": "/app-sube/static/css/main.1ceb154c.chunk.css",
     "main.js": "/app-sube/static/js/main.1e404a32.chunk.js",
     "main.js.map": "/app-sube/static/js/main.1e404a32.chunk.js.map",
     "runtime-main.js": "/app-sube/static/js/runtime-main.cfde5dc0.js",
@@ -8,15 +8,15 @@
     "static/js/2.314de0ad.chunk.js": "/app-sube/static/js/2.314de0ad.chunk.js",
     "static/js/2.314de0ad.chunk.js.map": "/app-sube/static/js/2.314de0ad.chunk.js.map",
     "index.html": "/app-sube/index.html",
-    "precache-manifest.f5180b8d8a9abb5acafae639811cb5f7.js": "/app-sube/precache-manifest.f5180b8d8a9abb5acafae639811cb5f7.js",
+    "precache-manifest.92d0f2be7dafdc4874cff5a95366c395.js": "/app-sube/precache-manifest.92d0f2be7dafdc4874cff5a95366c395.js",
     "service-worker.js": "/app-sube/service-worker.js",
-    "static/css/main.8a77a822.chunk.css.map": "/app-sube/static/css/main.8a77a822.chunk.css.map",
+    "static/css/main.1ceb154c.chunk.css.map": "/app-sube/static/css/main.1ceb154c.chunk.css.map",
     "static/js/2.314de0ad.chunk.js.LICENSE.txt": "/app-sube/static/js/2.314de0ad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cfde5dc0.js",
     "static/js/2.314de0ad.chunk.js",
-    "static/css/main.8a77a822.chunk.css",
+    "static/css/main.1ceb154c.chunk.css",
     "static/js/main.1e404a32.chunk.js"
   ]
 }
