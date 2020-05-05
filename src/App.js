@@ -13,7 +13,7 @@ import Registro from "./components/Registro/Registro";
 function App() {
   return (
     <div className="App">
-      <Router basename="/sube-app">
+      <Router basename="/app-sube">
         <Switch>
           <Route path="/login">
             <Login />
