@@ -77,9 +77,10 @@ label {
 }
 
 .centros-data {
-  width: 100%;
+  width: 90%;
+  align-items: flex-start;
   display: flex;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 
   span {
     font-size: 1.1rem;
@@ -94,4 +95,22 @@ label {
   img {
     margin-right: 0.5rem;
   }
+}
+
+.centros-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    margin-bottom: 0;
+    width: 90%;
+  }
+}
+
+.centros-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
