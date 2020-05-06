@@ -19,7 +19,7 @@
   background-color: #0868b8;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  height: 160px;
+  height: 150px;
 }
 
 .indice-user {
@@ -53,7 +53,7 @@
 }
 
 .indice-dashboard {
-  max-width: 300px;
+  max-width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +131,7 @@
 .indice-avatar {
   width: 100%;
   height: auto;
-  max-width: 80px;
+  max-width: 70px;
   border-radius: 1rem;
   margin-bottom: 0.1rem;
 
@@ -220,7 +220,7 @@
 
   h3 {
     color: #273939;
-    margin-top: 2.5rem 0 1rem 0 !important;
+    margin: 1rem 0 0.5rem 0;
   }
 }
 
