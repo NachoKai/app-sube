@@ -38,6 +38,14 @@ const Tarjetas = () => {
           />
           <span>0000 0000 0000 0000</span>
         </div>
+        <div className="tarjeta">
+          <img
+            alt="logo"
+            className="home-icon"
+            src="https://i.imgur.com/xmRRkqT.png"
+          />
+          <span>0000 0000 0000 0000</span>
+        </div>
       </div>
       <div className="tarjetas-cantidad">
         <div className="cantidad-titulo">

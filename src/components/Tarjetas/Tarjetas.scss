@@ -126,6 +126,7 @@
 }
 
 .tarjetas-container {
+  scroll-snap-type: x mandatory;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -134,6 +135,8 @@
 }
 
 .tarjeta {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -157,6 +160,8 @@
 }
 
 .agregar-tarjeta {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
   display: flex;
   align-items: center;
   justify-content: center;
